@@ -1,0 +1,317 @@
+{
+  "reportSchema" : "1.1",
+  "scanInfo" : {
+    "engineVersion" : "9.0.8",
+    "dataSource" : [ {
+      "name" : "NVD API Last Checked",
+      "timestamp" : "2024-02-21T15:22:07Z"
+    }, {
+      "name" : "NVD API Last Modified",
+      "timestamp" : "2024-02-21T15:15:09Z"
+    } ]
+  },
+  "projectInfo" : {
+    "name" : "",
+    "reportDate" : "2024-02-21T15:22:17.144047006Z",
+    "credits" : {
+      "NVD" : "This product uses the NVD API but is not endorsed or certified by the NVD. This report contains data retrieved from the National Vulnerability Database: https://nvd.nist.gov",
+      "CISA" : "This report may contain data retrieved from the CISA Known Exploited Vulnerability Catalog: https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "NPM" : "This report may contain data retrieved from the Github Advisory Database (via NPM Audit API): https://github.com/advisories/",
+      "RETIREJS" : "This report may contain data retrieved from the RetireJS community: https://retirejs.github.io/retire.js/",
+      "OSSINDEX" : "This report may contain data retrieved from the Sonatype OSS Index: https://ossindex.sonatype.org"
+    }
+  },
+  "dependencies" : [ {
+    "isVirtual" : false,
+    "fileName" : "gson-2.8.4.jar",
+    "filePath" : "/files/unzip_flow/src/main/resources/lib/gson-2.8.4.jar",
+    "md5" : "5c5fa99b264e68546620cb81d6340e43",
+    "sha1" : "d0de1ca9b69e69d1d497ee3c6009d015f64dad57",
+    "sha256" : "53bc5fe7644db908e6071d6c8b59059acadce7fc14217933d7251994e8673104",
+    "description" : "Gson JSON library",
+    "evidenceCollected" : {
+      "vendorEvidence" : [ {
+        "type" : "vendor",
+        "confidence" : "HIGH",
+        "source" : "file",
+        "name" : "name",
+        "value" : "gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "HIGHEST",
+        "source" : "jar",
+        "name" : "package name",
+        "value" : "google"
+      }, {
+        "type" : "vendor",
+        "confidence" : "HIGHEST",
+        "source" : "jar",
+        "name" : "package name",
+        "value" : "gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "LOW",
+        "source" : "Manifest",
+        "name" : "bundle-contactaddress",
+        "value" : "https://github.com/google/gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "LOW",
+        "source" : "Manifest",
+        "name" : "bundle-requiredexecutionenvironment",
+        "value" : "J2SE-1.5, JavaSE-1.6, JavaSE-1.7, JavaSE-1.8"
+      }, {
+        "type" : "vendor",
+        "confidence" : "MEDIUM",
+        "source" : "Manifest",
+        "name" : "bundle-symbolicname",
+        "value" : "com.google.gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "LOW",
+        "source" : "pom",
+        "name" : "artifactid",
+        "value" : "gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "HIGHEST",
+        "source" : "pom",
+        "name" : "groupid",
+        "value" : "com.google.code.gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "HIGH",
+        "source" : "pom",
+        "name" : "name",
+        "value" : "Gson"
+      }, {
+        "type" : "vendor",
+        "confidence" : "LOW",
+        "source" : "pom",
+        "name" : "parent-artifactid",
+        "value" : "gson-parent"
+      } ],
+      "productEvidence" : [ {
+        "type" : "product",
+        "confidence" : "HIGH",
+        "source" : "file",
+        "name" : "name",
+        "value" : "gson"
+      }, {
+        "type" : "product",
+        "confidence" : "HIGHEST",
+        "source" : "jar",
+        "name" : "package name",
+        "value" : "google"
+      }, {
+        "type" : "product",
+        "confidence" : "HIGHEST",
+        "source" : "jar",
+        "name" : "package name",
+        "value" : "gson"
+      }, {
+        "type" : "product",
+        "confidence" : "LOW",
+        "source" : "Manifest",
+        "name" : "bundle-contactaddress",
+        "value" : "https://github.com/google/gson"
+      }, {
+        "type" : "product",
+        "confidence" : "MEDIUM",
+        "source" : "Manifest",
+        "name" : "Bundle-Name",
+        "value" : "Gson"
+      }, {
+        "type" : "product",
+        "confidence" : "LOW",
+        "source" : "Manifest",
+        "name" : "bundle-requiredexecutionenvironment",
+        "value" : "J2SE-1.5, JavaSE-1.6, JavaSE-1.7, JavaSE-1.8"
+      }, {
+        "type" : "product",
+        "confidence" : "MEDIUM",
+        "source" : "Manifest",
+        "name" : "bundle-symbolicname",
+        "value" : "com.google.gson"
+      }, {
+        "type" : "product",
+        "confidence" : "HIGHEST",
+        "source" : "pom",
+        "name" : "artifactid",
+        "value" : "gson"
+      }, {
+        "type" : "product",
+        "confidence" : "HIGHEST",
+        "source" : "pom",
+        "name" : "groupid",
+        "value" : "com.google.code.gson"
+      }, {
+        "type" : "product",
+        "confidence" : "HIGH",
+        "source" : "pom",
+        "name" : "name",
+        "value" : "Gson"
+      }, {
+        "type" : "product",
+        "confidence" : "MEDIUM",
+        "source" : "pom",
+        "name" : "parent-artifactid",
+        "value" : "gson-parent"
+      } ],
+      "versionEvidence" : [ {
+        "type" : "version",
+        "confidence" : "HIGH",
+        "source" : "file",
+        "name" : "version",
+        "value" : "2.8.4"
+      }, {
+        "type" : "version",
+        "confidence" : "HIGH",
+        "source" : "Manifest",
+        "name" : "Bundle-Version",
+        "value" : "2.8.4"
+      }, {
+        "type" : "version",
+        "confidence" : "HIGHEST",
+        "source" : "pom",
+        "name" : "version",
+        "value" : "2.8.4"
+      } ]
+    },
+    "packages" : [ {
+      "id" : "pkg:maven/com.google.code.gson/gson@2.8.4",
+      "confidence" : "HIGH",
+      "url" : "https://ossindex.sonatype.org/component/pkg:maven/com.google.code.gson/gson@2.8.4?utm_source=dependency-check&utm_medium=integration&utm_content=9.0.8"
+    } ],
+    "vulnerabilityIds" : [ {
+      "id" : "cpe:2.3:a:google:gson:2.8.4:*:*:*:*:*:*:*",
+      "confidence" : "HIGHEST",
+      "url" : "https://nvd.nist.gov/vuln/search/results?form_type=Advanced&results_type=overview&search_type=all&cpe_vendor=cpe%3A%2F%3Agoogle&cpe_product=cpe%3A%2F%3Agoogle%3Agson&cpe_version=cpe%3A%2F%3Agoogle%3Agson%3A2.8.4"
+    } ],
+    "vulnerabilities" : [ {
+      "source" : "NVD",
+      "name" : "CVE-2022-25647",
+      "severity" : "HIGH",
+      "cvssv2" : {
+        "score" : 5.0,
+        "accessVector" : "NETWORK",
+        "accessComplexity" : "LOW",
+        "authenticationr" : "NONE",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "PARTIAL",
+        "severity" : "MEDIUM",
+        "version" : "2.0",
+        "exploitabilityScore" : "10.0",
+        "impactScore" : "2.9"
+      },
+      "cvssv3" : {
+        "baseScore" : 7.5,
+        "attackVector" : "NETWORK",
+        "attackComplexity" : "LOW",
+        "privilegesRequired" : "NONE",
+        "userInteraction" : "NONE",
+        "scope" : "UNCHANGED",
+        "confidentialityImpact" : "NONE",
+        "integrityImpact" : "NONE",
+        "availabilityImpact" : "HIGH",
+        "baseSeverity" : "HIGH",
+        "exploitabilityScore" : "3.9",
+        "impactScore" : "3.6",
+        "version" : "3.1"
+      },
+      "cwes" : [ "CWE-502" ],
+      "description" : "The package com.google.code.gson:gson before 2.8.9 are vulnerable to Deserialization of Untrusted Data via the writeReplace() method in internal classes, which may lead to DoS attacks.",
+      "notes" : "",
+      "references" : [ {
+        "source" : "report@snyk.io",
+        "url" : "https://www.oracle.com/security-alerts/cpujul2022.html",
+        "name" : "PATCH,THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://www.debian.org/security/2022/dsa-5227",
+        "name" : "THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "OSSIndex",
+        "url" : "https://github.com/google/gson/pull/1991",
+        "name" : "https://github.com/google/gson/pull/1991"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://lists.debian.org/debian-lts-announce/2022/05/msg00015.html",
+        "name" : "MAILING_LIST,THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://github.com/google/gson/pull/1991/commits",
+        "name" : "PATCH,THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://lists.debian.org/debian-lts-announce/2022/09/msg00009.html",
+        "name" : "THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://security.netapp.com/advisory/ntap-20220901-0009/",
+        "name" : "THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://snyk.io/vuln/SNYK-JAVA-COMGOOGLECODEGSON-1730327",
+        "name" : "THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "report@snyk.io",
+        "url" : "https://github.com/google/gson/pull/1991",
+        "name" : "PATCH,THIRD_PARTY_ADVISORY"
+      }, {
+        "source" : "OSSINDEX",
+        "url" : "https://ossindex.sonatype.org/vulnerability/CVE-2022-25647?component-type=maven&component-name=com.google.code.gson%2Fgson&utm_source=dependency-check&utm_medium=integration&utm_content=9.0.8",
+        "name" : "[CVE-2022-25647] CWE-502: Deserialization of Untrusted Data"
+      } ],
+      "vulnerableSoftware" : [ {
+        "software" : {
+          "id" : "cpe:2.3:a:google:gson:*:*:*:*:*:*:*:*",
+          "vulnerabilityIdMatched" : "true",
+          "versionStartIncluding" : "2.2.3",
+          "versionEndExcluding" : "2.8.9"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:linux:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:vmware_vsphere:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:netapp:active_iq_unified_manager:-:*:*:*:*:windows:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:financial_services_crime_and_compliance_management_studio:8.0.8.2.0:*:*:*:*:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:financial_services_crime_and_compliance_management_studio:8.0.8.3.0:*:*:*:*:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:graalvm:20.3.6:*:*:*:enterprise:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:graalvm:21.3.2:*:*:*:enterprise:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:graalvm:22.1.0:*:*:*:enterprise:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:retail_order_broker:18.0:*:*:*:*:*:*:*"
+        }
+      }, {
+        "software" : {
+          "id" : "cpe:2.3:a:oracle:retail_order_broker:19.1:*:*:*:*:*:*:*"
+        }
+      } ]
+    } ]
+  } ]
+}
